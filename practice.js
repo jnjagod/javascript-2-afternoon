@@ -19,7 +19,7 @@ let me = {
   name: 'Josh',
   age: 31
 }
-me.name
+alert(me.name)
 
 
 ////////// PROBLEM 2 //////////
@@ -59,7 +59,6 @@ favoriteThings.brand = 'Volcom'
 
 favoriteThings.food = 'Chicken Nuggets'
 favoriteThings.book = 'Harry Potter'
-console.log(favoriteThings)
 
 
 ////////// PROBLEM 3 //////////
@@ -73,19 +72,26 @@ console.log(favoriteThings)
 */
 
 //Code here
+backPack = {}
+
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'green'
+
 
 /*
   After you do the above, alert your entire backPack object.
 */
-
+alert(backPack)
 //Code here
+
 
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
-
+console.log(backPack)
 //Code here
 
 ////////// PROBLEM 4 //////////
@@ -106,6 +112,8 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 
 //Code Here
 
@@ -116,6 +124,7 @@ var user2 = {
 
 /*
   Create an empty object called methodCollection.
+
 */
 
 //Code Here
